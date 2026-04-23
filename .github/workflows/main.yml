@@ -14,8 +14,8 @@ jobs:
     - name: Run OWASP Dependency Check
       uses: dependency-check/Dependency-Check_Action@main
       with:
-        project: extra-assignment-1-AamirRahman11
-        path: C:\Users\north\Documents\GIT CODE
+        project: package.json
+        path: C:\Users\north\Documents\GIT CODE\extra-assignment-1-AamirRahman11
         format: HTML
 
     - name: Upload Report
